@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/webIcon.svg" type="image/svg+xml">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/styleDesktopPrayer.css" />
+  <link rel="stylesheet" href="/css/styleMobilePrayer.css" />
+
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <title>Rosary</title>
+</head>
+<style>
+
+</style>
+
+<body>
+
+  <div class="container">
+
+    <div id="canvasContainer" class="containerCanvas">
+      <div id="message" class="overlay overlayMessage"></div>
+      <div id="prayer" class="overlay overlayPrayer"></div>
+      <div id="help" class="overlay overlayHelp"></div>
+      <canvas id="canvas" class="webgl"></canvas>
+    </div>
+
+    <div class="containerControls">
+      <div id="buttonsPrayers" class="buttonsPrayers">
+
+      </div>
+      <div class="buttonsNavigation">
+        <div class="buttonNavigation buttonStyle" id="buttonReset"><i data-lucide="rotate-ccw" width="32" height="32"
+            stroke-width="1"></i>
+        </div>
+        <div class="buttonNavigation buttonStyle" id="buttonPrev"><i data-lucide="arrow-left" width="32" height="32"
+            stroke-width="1"></i>
+        </div>
+        <div class="buttonNavigation buttonStyle" id="buttonNext"><i data-lucide="arrow-right" width="32" height="32"
+            stroke-width="1"></i>
+        </div>
+        <div class="buttonNavigation buttonStyle" id="buttonZoomIn"><i data-lucide="zoom-in" width="32" height="32"
+            stroke-width="1"></i>
+        </div>
+        <div class="buttonNavigation buttonStyle" id="buttonZoomOut"><i data-lucide="zoom-out" width="32" height="32"
+            stroke-width="1"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script type="module" src="/js/rosary.js"></script>
+  <!-- <script type="module" src="/js/utilities.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+[
+    {
+        "prayer": "Our Father",
+        "prayerFilename": "Prayer_OurFather.html"
+    },
+    {
+        "prayer": "Hail Mary",
+        "prayerFilename": "Prayer_HailMary.html"
+    },
+    {
+        "prayer": "Glory Be",
+        "prayerFilename": "Prayer_GloryBe.html"
+    },
+    {
+        "prayer": "Fatima Prayer",
+        "prayerFilename": "Prayer_FatimaPrayer.html"
+    },
+    {
+        "prayer": "Hail Holy Queen",
+        "prayerFilename": "Prayer_HailHolyQueen.html"
+    }
+]

@@ -1,7 +1,9 @@
 import { defineConfig } from "vite";
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 export default defineConfig({
-  plugins: [],
+  plugins: [cloudflare()],
   // Project root directory (where index.html is located).
   root: ".",
   // Base public path when served in development or production.
